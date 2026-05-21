@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON PULSE | Train Beyond Limits</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Custom Animated Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Cinematic Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <span class="pulse-text">IRON</span><span class="accent-text">PULSE</span>
+            </div>
+            <div class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <div class="loader-status">
+                <span class="status-message">INITIALIZING SYSTEM...</span>
+                <span class="loading-percentage">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dynamic Header / Navbar -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-bold">IRON</span><span class="logo-accent">PULSE</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#trainers" class="nav-link">Trainers</a>
+                <a href="#pricing" class="nav-link">Plans</a>
+                <a href="#bmi" class="nav-link">BMI Calc</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#pricing" class="btn-primary join-btn">JOIN NOW</a>
+                <button class="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-video-bg">
+            <!-- Cinematic fallback image if video doesn't load/exist -->
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop" alt="Gym Background">
+        </div>
+        
+        <!-- Glowing Ambient Lights -->
+        <div class="glowing-orb electric-blue-glow"></div>
+        <div class="glowing-orb neon-red-glow"></div>
+
+        <div class="hero-content">
+            <span class="hero-tagline animate-text">TRAIN BEYOND LIMITS</span>
+            <h1 class="hero-title animate-text">
+                TRANSFORM <br> YOUR <span class="glowing-text">BODY</span>
+            </h1>
+            <p class="hero-subtitle animate-text">Elite futuristic fitness experience equipped with AI diagnostics, top-tier trainers, and athletic luxury spaces.</p>
+            <div class="hero-buttons animate-text">
+                <a href="#pricing" class="btn-primary hover-glow">GET STARTED <i class="fa-solid fa-bolt"></i></a>
+                <a href="#services" class="btn-secondary">VIEW PROGRAMS</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">SCROLL TO PULSE</span>
+            <div class="mouse-icon">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">THE REVOLUTION</span>
+                <h2 class="section-title">WHO WE ARE</h2>
+                <div class="neon-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text-wrapper" data-aos="fade-right">
+                    <h3>IRON PULSE DELIVERS A FUTURISTIC FITNESS EXPERIENCE</h3>
+                    <p class="about-description">
+                        We don't believe in limits. Founded at the intersection of high-end luxury and raw mechanical aggression, IRON PULSE integrates cutting-edge biometric tracking, ultra-modern equipment, and elite athletic training protocols to help you break plateaus.
+                    </p>
+                    <p class="about-sub-description">
+                        Step into a workspace designed to optimize your focus, driven by cinematic environments, dark mood elements, and a community striving for greatness.
+                    </p>
+                    <a href="#services" class="btn-text">EXPLORE TECHNOLOGIES <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="about-stats-grid" data-aos="fade-left">
+                    <div class="stat-card glass-card" data-tilt>
+                        <div class="stat-icon"><i class="fa-solid fa-person-running"></i></div>
+                        <h4 class="stat-number" data-target="30">0</h4>
+                        <p class="stat-label">ELITE COACHES</p>
+                    </div>
+                    <div class="stat-card glass-card" data-tilt>
+                        <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+                        <h4 class="stat-number" data-target="15">0</h4>
+                        <p class="stat-label">ACTIVE MEMBERS (k+)</p>
+                    </div>
+                    <div class="stat-card glass-card" data-tilt>
+                        <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                        <h4 class="stat-number" data-target="12">0</h4>
+                        <p class="stat-label">YEARS EXPERIENCE</p>
+                    </div>
+                    <div class="stat-card glass-card" data-tilt>
+                        <div class="stat-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                        <h4 class="stat-number" data-target="100">0</h4>
+                        <p class="stat-label">ELITE EQUIPMENTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SERVICES SECTION -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="section-header center-align">
+                <span class="section-tag">ELITE SYSTEMS</span>
+                <h2 class="section-title">OUR SPECIALTIES</h2>
+                <div class="neon-divider center"></div>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3 class="service-title">STRENGTH TRAINING</h3>
+                    <p class="service-desc">Biomechanical performance equipment designed to construct peak physical power and dense muscular strength.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="100" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3 class="service-title">CARDIO FITNESS</h3>
+                    <p class="service-desc">Interactive metabolic conditioning simulators integrated with physiological diagnostics.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="200" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <h3 class="service-title">PERSONAL TRAINING</h3>
+                    <p class="service-desc">One-on-one tailored coaching programs crafted around your biometric data and lifestyle goals.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="300" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-apple-whole"></i></div>
+                    <h3 class="service-title">NUTRITION STRATEGY</h3>
+                    <p class="service-desc">Precision meal plans calculated mathematically based on your body composition tracking.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="400" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-fire"></i></div>
+                    <h3 class="service-title">CROSSFIT PROTOCOLS</h3>
+                    <p class="service-desc">High-intensity structured hybrid workouts designed for optimal functional endurance.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card glass-card" data-aos="fade-up" data-aos-delay="500" data-tilt>
+                    <div class="service-glow-bg"></div>
+                    <div class="service-icon"><i class="fa-solid fa-ranking-star"></i></div>
+                    <h3 class="service-title">BODYBUILDING</h3>
+                    <p class="service-desc">Advanced aesthetic programming to unlock symmetrical hyper-trophy with peak efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. TRAINERS SECTION -->
+    <section id="trainers" class="trainers-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ELITE FORCE</span>
+                <h2 class="section-title">THE MASTERS</h2>
+                <div class="neon-divider"></div>
+            </div>
+
+            <div class="trainers-grid">
+                <!-- Trainer 1 -->
+                <div class="trainer-card" data-aos="zoom-in">
+                    <div class="trainer-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=600&auto=format&fit=crop" alt="Trainer Viktor">
+                        <div class="trainer-overlay">
+                            <div class="trainer-socials">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">Head of Strength</span>
+                        <h4 class="trainer-name">Viktor Vance</h4>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 -->
+                <div class="trainer-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="trainer-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=600&auto=format&fit=crop" alt="Trainer Athena">
+                        <div class="trainer-overlay">
+                            <div class="trainer-socials">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">Tactical Conditioning</span>
+                        <h4 class="trainer-name">Athena Carter</h4>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 -->
+                <div class="trainer-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="trainer-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=600&auto=format&fit=crop" alt="Trainer Jaxson">
+                        <div class="trainer-overlay">
+                            <div class="trainer-socials">
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">Aesthetic Architecture</span>
+                        <h4 class="trainer-name">Marcus Vance</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. MEMBERSHIP PLANS -->
+    <section id="pricing" class="pricing-section section-padding">
+        <div class="container">
+            <div class="section-header center-align">
+                <span class="section-tag">THE SYSTEM</span>
+                <h2 class="section-title">CHOOSE YOUR PROTOCOL</h2>
+                <div class="neon-divider center"></div>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card glass-card" data-aos="fade-up">
+                    <div class="plan-header">
+                        <h3 class="plan-name">BASIC PULSE</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Standard access to elite machines</li>
+                        <li><i class="fa-solid fa-check"></i> 1 Diagnostic body composition scan</li>
+                        <li><i class="fa-solid fa-check"></i> High-speed biometric key access</li>
+                        <li><i class="fa-solid fa-check"></i> Access to digital workout guides</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> 1-on-1 Certified trainer advice</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Cryo-recovery chamber access</li>
+                    </ul>
+                    <button class="btn-primary plan-btn select-plan" data-plan="Basic Pulse">SELECT ACCESS</button>
+                </div>
+
+                <!-- Pro Plan (Popular) -->
+                <div class="pricing-card glass-card popular-plan" data-aos="fade-up" data-aos-delay="150">
+                    <div class="popular-tag">MOST POPULAR</div>
+                    <div class="plan-header">
+                        <h3 class="plan-name">PRO CORE</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">89</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Full 24/7 Access to all facility areas</li>
+                        <li><i class="fa-solid fa-check"></i> Bi-weekly 3D biometric scans</li>
+                        <li><i class="fa-solid fa-check"></i> Full class access (CrossFit & Power)</li>
+                        <li><i class="fa-solid fa-check"></i> Custom AI-driven training application</li>
+                        <li><i class="fa-solid fa-check"></i> 2 Monthly personal coaching hours</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Cryo-recovery chamber access</li>
+                    </ul>
+                    <button class="btn-primary plan-btn active-btn select-plan" data-plan="Pro Core">SELECT ACCESS</button>
+                </div>
+
+                <!-- Elite Plan -->
+                <div class="pricing-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="plan-header">
+                        <h3 class="plan-name">ELITE APEX</h3>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">149</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited master facility/VIP access</li>
+                        <li><i class="fa-solid fa-check"></i> Weekly complete biometric & DNA insights</li>
+                        <li><i class="fa-solid fa-check"></i> Unlimited group metabolic classes</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated Master Coach 1-on-1 tracking</li>
+                        <li><i class="fa-solid fa-check"></i> Customized gourmet nutritional supplements</li>
+                        <li><i class="fa-solid fa-check"></i> 24/7 Unlimited Cryo-recovery & Thermal Spa</li>
+                    </ul>
+                    <button class="btn-primary plan-btn select-plan" data-plan="Elite Apex">SELECT ACCESS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. BMI CALCULATOR SECTION -->
+    <section id="bmi" class="bmi-section section-padding">
+        <div class="container">
+            <div class="bmi-layout-grid">
+                <div class="bmi-text" data-aos="fade-right">
+                    <span class="section-tag">BIOMETRICS</span>
+                    <h2 class="section-title">BODY MASS INDEX</h2>
+                    <p class="bmi-description">
+                        Instantly diagnose your metric category. While BMI is a broad measurement metric, it functions as a baseline physical indicator of metabolic ratio parameters.
+                    </p>
+                    <div class="bmi-chart-legend">
+                        <div class="legend-item"><span class="legend-dot blue"></span> Underweight (&lt; 18.5)</div>
+                        <div class="legend-item"><span class="legend-dot green"></span> Healthy (18.5 - 24.9)</div>
+                        <div class="legend-item"><span class="legend-dot orange"></span> Overweight (25 - 29.9)</div>
+                        <div class="legend-item"><span class="legend-dot red"></span> Obese (&ge; 30)</div>
+                    </div>
+                </div>
+
+                <div class="bmi-calculator-wrapper" data-aos="fade-left">
+                    <div class="glass-card bmi-calculator-card">
+                        <h3 class="calc-title">METRIC INTERFACE</h3>
+                        <div class="calc-fields">
+                            <div class="input-group">
+                                <label for="bmi-height">HEIGHT (CM)</label>
+                                <input type="number" id="bmi-height" placeholder="e.g. 175" min="100" max="250" required>
+                                <span class="input-focus-line"></span>
+                            </div>
+                            <div class="input-group">
+                                <label for="bmi-weight">WEIGHT (KG)</label>
+                                <input type="number" id="bmi-weight" placeholder="e.g. 70" min="30" max="300" required>
+                                <span class="input-focus-line"></span>
+                            </div>
+                        </div>
+                        <button id="calculate-bmi-btn" class="btn-primary full-width">CALCULATE BIOMETRICS <i class="fa-solid fa-calculator"></i></button>
+
+                        <div id="bmi-results-display" class="bmi-result-box hidden">
+                            <div class="result-number-wrap">
+                                <span class="result-label">YOUR INDEX</span>
+                                <span id="bmi-value" class="result-value">00.0</span>
+                            </div>
+                            <div class="result-category-wrap">
+                                <span class="result-label">METABOLIC STATUS</span>
+                                <span id="bmi-category" class="result-category">NOT INSTANTIATED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TRANSFORMATION GALLERY -->
+    <section id="transformations" class="transform-section section-padding">
+        <div class="container">
+            <div class="section-header center-align">
+                <span class="section-tag">METAMORPHOSIS</span>
+                <h2 class="section-title">PROVEN EVOLUTION</h2>
+                <div class="neon-divider center"></div>
+            </div>
+
+            <!-- Swiper Slider Container -->
+            <div class="swiper transformation-swiper" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="transformation-card glass-card">
+                            <div class="transformation-images">
+                                <div class="side-img before">
+                                    <span class="meta-tag before-tag">BEFORE</span>
+                                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400&auto=format&fit=crop" alt="Before">
+                                </div>
+                                <div class="side-img after">
+                                    <span class="meta-tag after-tag">AFTER</span>
+                                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=400&auto=format&fit=crop" alt="After">
+                                </div>
+                            </div>
+                            <div class="transformation-details">
+                                <h4 class="member-name">Ethan Stark</h4>
+                                <p class="transformation-metric"><span class="text-accent">-15 kg</span> Fat | <span class="text-accent">+6 kg</span> Muscle</p>
+                                <span class="time-frame">12-Week Transformation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="transformation-card glass-card">
+                            <div class="transformation-images">
+                                <div class="side-img before">
+                                    <span class="meta-tag before-tag">BEFORE</span>
+                                    <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=400&auto=format&fit=crop" alt="Before">
+                                </div>
+                                <div class="side-img after">
+                                    <span class="meta-tag after-tag">AFTER</span>
+                                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=400&auto=format&fit=crop" alt="After">
+                                </div>
+                            </div>
+                            <div class="transformation-details">
+                                <h4 class="member-name">Sarah Jenkins</h4>
+                                <p class="transformation-metric"><span class="text-accent">-8%</span> Body Fat Ratio</p>
+                                <span class="time-frame">8-Week Lean Phase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="transformation-card glass-card">
+                            <div class="transformation-images">
+                                <div class="side-img before">
+                                    <span class="meta-tag before-tag">BEFORE</span>
+                                    <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=400&auto=format&fit=crop" alt="Before">
+                                </div>
+                                <div class="side-img after">
+                                    <span class="meta-tag after-tag">AFTER</span>
+                                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=400&auto=format&fit=crop" alt="After">
+                                </div>
+                            </div>
+                            <div class="transformation-details">
+                                <h4 class="member-name">Derek Thorne</h4>
+                                <p class="transformation-metric"><span class="text-accent">+12 kg</span> Lean Mass Architecture</p>
+                                <span class="time-frame">16-Week Power Cycle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Navigation Buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-section section-padding">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">COMMUNITY VOICE</span>
+                <h2 class="section-title">THE TRANSMITTED LOGS</h2>
+                <div class="neon-divider"></div>
+            </div>
+
+            <div class="swiper testimonial-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card glass-card">
+                            <div class="test-top">
+                                <div class="client-info">
+                                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150&auto=format&fit=crop" alt="Client Rachel">
+                                    <div>
+                                        <h5 class="client-name">Rachel Vance</h5>
+                                        <span class="client-program">Pro Core Member</span>
+                                    </div>
+                                </div>
+                                <div class="stars-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial-feedback">
+                                "The aesthetic and layout is absolutely otherworldly. It feels like training in an elite gaming workspace. The real-time biometric tracking is incredibly precise, and the progress keeps me coming back every single day."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card glass-card">
+                            <div class="test-top">
+                                <div class="client-info">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop" alt="Client David">
+                                    <div>
+                                        <h5 class="client-name">David Thorne</h5>
+                                        <span class="client-program">Elite Apex Member</span>
+                                    </div>
+                                </div>
+                                <div class="stars-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial-feedback">
+                                "Outstanding environment. Access to the luxury recovery systems has drastically slashed my recovery periods. Coach Marcus revamped my biomechanical forms. Truly an elite facility."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card glass-card">
+                            <div class="test-top">
+                                <div class="client-info">
+                                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop" alt="Client Liam">
+                                    <div>
+                                        <h5 class="client-name">Liam Brooks</h5>
+                                        <span class="client-program">Basic Pulse Member</span>
+                                    </div>
+                                </div>
+                                <div class="stars-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial-feedback">
+                                "High energy level, incredibly clean space, and incredibly futuristic aesthetics. The value provided for the basic tier exceeds any traditional health club membership."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CONTACT SECTION -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-wrap" data-aos="fade-right">
+                    <span class="section-tag">CONNECT</span>
+                    <h2 class="section-title">TRANSMIT REQUEST</h2>
+                    <p class="contact-info-desc">
+                        Connect with the main terminal. Ask questions, schedule a physical facility tour, or request an immediate diagnostics orientation.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="details-item">
+                            <div class="details-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="details-text">
+                                <h5>COORDINATES</h5>
+                                <p>Suite 200, Neon District, Cyber City</p>
+                            </div>
+                        </div>
+                        <div class="details-item">
+                            <div class="details-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="details-text">
+                                <h5>SYSTEM COMM</h5>
+                                <p>+1 (000) 000-0000</p>
+                            </div>
+                        </div>
+                        <div class="details-item">
+                            <div class="details-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="details-text">
+                                <h5>DATA LINK</h5>
+                                <p>pulse@ironpulse.net</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap" data-aos="fade-left">
+                    <div class="glass-card contact-form-card">
+                        <form id="iron-pulse-contact-form">
+                            <div class="form-row-2">
+                                <div class="input-group">
+                                    <label for="contact-name">NAME</label>
+                                    <input type="text" id="contact-name" placeholder="John Doe" required>
+                                    <span class="input-focus-line"></span>
+                                </div>
+                                <div class="input-group">
+                                    <label for="contact-email">EMAIL</label>
+                                    <input type="email" id="contact-email" placeholder="john@example.com" required>
+                                    <span class="input-focus-line"></span>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="contact-phone">PHONE</label>
+                                <input type="tel" id="contact-phone" placeholder="e.g. +1 (000) 000-0000">
+                                <span class="input-focus-line"></span>
+                            </div>
+                            <div class="input-group">
+                                <label for="contact-message">MESSAGE</label>
+                                <textarea id="contact-message" rows="4" placeholder="Type message parameters..." required></textarea>
+                                <span class="input-focus-line"></span>
+                            </div>
+                            <button type="submit" class="btn-primary full-width">TRANSMIT PACKET <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUCCESS MODAL POPUP -->
+    <div id="success-modal" class="modal-overlay hidden">
+        <div class="modal-card glass-card">
+            <div class="success-icon-container">
+                <i class="fa-solid fa-shield-halved text-glowing-pulse"></i>
+            </div>
+            <h3 class="modal-title">ACCESS GRANTED</h3>
+            <p id="modal-response-text" class="modal-text">Your message packet has been successfully verified. A digital concierge will sync with your terminal shortly.</p>
+            <button id="close-modal-btn" class="btn-primary">CLOSE TERMINAL</button>
+        </div>
+    </div>
+
+    <!-- 10. FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col-about">
+                    <a href="#" class="logo">
+                        <span class="logo-bold">IRON</span><span class="logo-accent">PULSE</span>
+                    </a>
+                    <p class="footer-about-text">
+                        A modern digital physical hub for body transformation and biometric scaling. Unlocking potential through raw mechanical focus and design-centric technology.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col-links">
+                    <h5 class="footer-col-title">NAVIGATION</h5>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Home Base</a></li>
+                        <li><a href="#about">The Gym</a></li>
+                        <li><a href="#services">Specialties</a></li>
+                        <li><a href="#trainers">The Masters</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-links">
+                    <h5 class="footer-col-title">SYSTEM PROTOCOLS</h5>
+                    <ul class="footer-links">
+                        <li><a href="#pricing">Access Plans</a></li>
+                        <li><a href="#bmi">Biometrics Tool</a></li>
+                        <li><a href="#transformations">Proof Logs</a></li>
+                        <li><a href="#contact">Contact Coordinates</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-hours">
+                    <h5 class="footer-col-title">FACILITY SHIFTS</h5>
+                    <ul class="footer-hours">
+                        <li><span>Weekdays:</span> <span>24 HOURS ACCESS</span></li>
+                        <li><span>Saturdays:</span> <span>06:00 - 22:00</span></li>
+                        <li><span>Sundays:</span> <span>08:00 - 20:00</span></li>
+                        <li><span>AI Diagnostics:</span> <span>24/7 ONLINE</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 IRON PULSE. All systems operational. Made for athletic evolution.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button (FAB) -->
+    <a href="#pricing" class="floating-cta" aria-label="Book a program">
+        <i class="fa-solid fa-plus"></i>
+    </a>
+
+    <!-- LIBRARIES (CDN ONLY) -->
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.34/dist/lenis.min.js"></script>
+    <!-- Vanilla Tilt.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
