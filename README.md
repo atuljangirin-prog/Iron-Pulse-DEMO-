@@ -7,7 +7,7 @@ A premium futuristic gym and fitness website built using **HTML5, CSS3, and Vani
 # 🚀 Live Preview
 
 ```bash
-https://your-website-link.vercel.app
+[https://atuljangirin-prog.github.io/Iron-Pulse-DEMO-/]
 ```
 
 # ✨ Features
@@ -129,11 +129,6 @@ Designed & Developed by:
 📧 Email:
 [atuljangir.in@gmail.com](mailto:atuljangir.in@gmail.com)
 
-🌐 Portfolio:
-
-
----
-
 # 📄 License
 
 This project is open-source and available for personal and educational use.
@@ -172,4 +167,6 @@ IRON PULSE is designed to showcase:
 * Modern web development capabilities
 * Futuristic creative direction
 
-A perfect showcase project for modern developer portfolios.
+
+
+Created BY 'ATUL JANGIR'
