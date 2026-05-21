@@ -7,7 +7,7 @@ A premium futuristic gym and fitness website built using **HTML5, CSS3, and Vani
 # 🚀 Live Preview
 
 ```bash
-[https://atuljangirin-prog.github.io/Iron-Pulse-DEMO-/]
+https://atuljangirin-prog.github.io/Iron-Pulse-DEMO-/
 ```
 
 # ✨ Features
